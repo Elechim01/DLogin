@@ -3,23 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90331EF1E969F3B8A9E95141 /* Pods_DLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49E77B92210A064684646E9 /* Pods_DLogin.framework */; };
+		D14E46BE259B3A72002F2DAF /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14E46BD259B3A72002F2DAF /* LoadingView.swift */; };
 		D1F763A3259A481F0012D281 /* DLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F763A2259A481F0012D281 /* DLoginApp.swift */; };
 		D1F763A5259A481F0012D281 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F763A4259A481F0012D281 /* ContentView.swift */; };
 		D1F763A7259A48200012D281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F763A6259A48200012D281 /* Assets.xcassets */; };
 		D1F763AA259A48200012D281 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F763A9259A48200012D281 /* Preview Assets.xcassets */; };
+		D1F763B3259A488F0012D281 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1F763B2259A488F0012D281 /* GoogleService-Info.plist */; };
+		D1F763C4259A4B740012D281 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F763C3259A4B740012D281 /* LoginView.swift */; };
+		D1F763C9259A4F020012D281 /* CustomTextFolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F763C8259A4F020012D281 /* CustomTextFolder.swift */; };
+		D1F763CC259A50340012D281 /* Dati.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F763CB259A50340012D281 /* Dati.swift */; };
+		D1F763DA259A55AE0012D281 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1F763D9259A55AE0012D281 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A478738EA0264D7E585E48DE /* Pods-DLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLogin.release.xcconfig"; path = "Target Support Files/Pods-DLogin/Pods-DLogin.release.xcconfig"; sourceTree = "<group>"; };
+		B49E77B92210A064684646E9 /* Pods_DLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D14E46BD259B3A72002F2DAF /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		D14E46C0259B4555002F2DAF /* DLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DLogin.entitlements; sourceTree = "<group>"; };
 		D1F7639F259A481F0012D281 /* DLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F763A2259A481F0012D281 /* DLoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DLoginApp.swift; sourceTree = "<group>"; };
 		D1F763A4259A481F0012D281 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D1F763A6259A48200012D281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1F763A9259A48200012D281 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1F763AB259A48200012D281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1F763B2259A488F0012D281 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D1F763C3259A4B740012D281 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D1F763C8259A4F020012D281 /* CustomTextFolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFolder.swift; sourceTree = "<group>"; };
+		D1F763CB259A50340012D281 /* Dati.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dati.swift; sourceTree = "<group>"; };
+		D1F763D9259A55AE0012D281 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		D66164D934D7BF7A5CA0E505 /* Pods-DLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DLogin.debug.xcconfig"; path = "Target Support Files/Pods-DLogin/Pods-DLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90331EF1E969F3B8A9E95141 /* Pods_DLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66C4B3F7ECF10953E9BC28E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B49E77B92210A064684646E9 /* Pods_DLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90562D6AEB3628211F869C8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D66164D934D7BF7A5CA0E505 /* Pods-DLogin.debug.xcconfig */,
+				A478738EA0264D7E585E48DE /* Pods-DLogin.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D1F76396259A481E0012D281 = {
 			isa = PBXGroup;
 			children = (
 				D1F763A1259A481F0012D281 /* DLogin */,
 				D1F763A0259A481F0012D281 /* Products */,
+				90562D6AEB3628211F869C8A /* Pods */,
+				66C4B3F7ECF10953E9BC28E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,10 +89,14 @@
 		D1F763A1259A481F0012D281 /* DLogin */ = {
 			isa = PBXGroup;
 			children = (
+				D14E46C0259B4555002F2DAF /* DLogin.entitlements */,
 				D1F763A2259A481F0012D281 /* DLoginApp.swift */,
+				D1F763C2259A4B620012D281 /* Dati */,
+				D1F763C1259A4B5B0012D281 /* View */,
 				D1F763A4259A481F0012D281 /* ContentView.swift */,
 				D1F763A6259A48200012D281 /* Assets.xcassets */,
 				D1F763AB259A48200012D281 /* Info.plist */,
+				D1F763B2259A488F0012D281 /* GoogleService-Info.plist */,
 				D1F763A8259A48200012D281 /* Preview Content */,
 			);
 			path = DLogin;
@@ -69,6 +110,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D1F763C1259A4B5B0012D281 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D1F763C3259A4B740012D281 /* LoginView.swift */,
+				D1F763C8259A4F020012D281 /* CustomTextFolder.swift */,
+				D1F763D9259A55AE0012D281 /* SignUpView.swift */,
+				D14E46BD259B3A72002F2DAF /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D1F763C2259A4B620012D281 /* Dati */ = {
+			isa = PBXGroup;
+			children = (
+				D1F763CB259A50340012D281 /* Dati.swift */,
+			);
+			path = Dati;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1F763AE259A48200012D281 /* Build configuration list for PBXNativeTarget "DLogin" */;
 			buildPhases = (
+				65A70C7CF0F9D888A629B406 /* [CP] Check Pods Manifest.lock */,
 				D1F7639B259A481E0012D281 /* Sources */,
 				D1F7639C259A481E0012D281 /* Frameworks */,
 				D1F7639D259A481E0012D281 /* Resources */,
+				5C6D3135160291ECCBB27853 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,17 +190,65 @@
 			files = (
 				D1F763AA259A48200012D281 /* Preview Assets.xcassets in Resources */,
 				D1F763A7259A48200012D281 /* Assets.xcassets in Resources */,
+				D1F763B3259A488F0012D281 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C6D3135160291ECCBB27853 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DLogin/Pods-DLogin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DLogin/Pods-DLogin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DLogin/Pods-DLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A70C7CF0F9D888A629B406 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D1F7639B259A481E0012D281 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F763C4259A4B740012D281 /* LoginView.swift in Sources */,
+				D1F763CC259A50340012D281 /* Dati.swift in Sources */,
+				D1F763C9259A4F020012D281 /* CustomTextFolder.swift in Sources */,
 				D1F763A5259A481F0012D281 /* ContentView.swift in Sources */,
+				D1F763DA259A55AE0012D281 /* SignUpView.swift in Sources */,
+				D14E46BE259B3A72002F2DAF /* LoadingView.swift in Sources */,
 				D1F763A3259A481F0012D281 /* DLoginApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,9 +374,11 @@
 		};
 		D1F763AF259A48200012D281 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66164D934D7BF7A5CA0E505 /* Pods-DLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DLogin/DLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DLogin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -285,9 +397,11 @@
 		};
 		D1F763B0259A48200012D281 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A478738EA0264D7E585E48DE /* Pods-DLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DLogin/DLogin.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DLogin/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
