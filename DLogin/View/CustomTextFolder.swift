@@ -23,7 +23,6 @@ struct CustomTextFolder: View {
             ZStack{
                 if placeolder == "Password" || placeolder == "Re-Enter"{
                     SecureField(placeolder,text: $txt)
-                        .textContentType(.oneTimeCode)
                 }else{
                     TextField(placeolder,text:$txt)
                 }
